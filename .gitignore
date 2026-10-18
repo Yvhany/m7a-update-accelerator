@@ -1,0 +1,30 @@
+﻿# 编译产物（需要自己编译，见 local-proxy/README.md）
+*.exe
+*.dll
+*.pdb
+
+# 证书与密钥：绝对不能提交
+*.pfx
+*.pem
+*.crt
+*.cer
+*.key
+*.csr
+*.srl
+
+# 运行日志
+*.log
+
+# 部署产生的备份
+*.bak
+*.bak-*
+
+# 依赖与构建输出
+node_modules/
+dist/
+.wrangler/
+
+# 编辑器
+.vscode/
+.idea/
+*.user
